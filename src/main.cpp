@@ -8,11 +8,14 @@ int main()
   setlocale(LC_ALL, "Portuguese");
 
   long long int codigo, somaDosDigitos, soma, D0, D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12;
+  string codigoComoString;
 
   cout << "Informe o código de 13 dígitos: ";
   cin >> codigo;
 
-  if (to_string(codigo).length() != 13)
+  codigoComoString = to_string(codigo);
+
+  if (codigoComoString.length() != 13)
   {
     cout << "Código possui tamanho inválido!";
 
@@ -44,10 +47,6 @@ int main()
 
   soma = ((somaDosDigitos / 10) + 1) * 10;
   soma = soma - somaDosDigitos;
-
-  cout << D0 << "\n";
-  cout << soma << "\n";
-  cout << somaDosDigitos << "\n";
 
   if (soma == D0 || (soma >= 10 && soma % 10 == D0))
   {
