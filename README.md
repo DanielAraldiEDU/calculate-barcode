@@ -1,5 +1,7 @@
 # Cálculo de Código de Barras
 
+[![wakatime](https://wakatime.com/badge/user/920a7e43-2969-4212-82ff-1b375685ff58/project/08d18af8-ede0-4b30-bef0-dd3366673a8d.svg)](https://wakatime.com/badge/user/920a7e43-2969-4212-82ff-1b375685ff58/project/08d18af8-ede0-4b30-bef0-dd3366673a8d)
+
 Trabalho desenvolvido com intuito de calcular o dígito verificador de um código de barras, certificando se é válido ou não.
 
 1. Para descobrir o dígito verificador deve-se separar os 12 primeiros dígitos lidos da esquerda para direita.
