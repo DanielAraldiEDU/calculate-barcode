@@ -8,7 +8,8 @@ int main()
   setlocale(LC_ALL, "Portuguese");
 
   // Declaração de variáveis.
-  long long int codigo, somaDosDigitos, soma, D0, D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12;
+  long long int codigo;
+  int somaDosDigitos, soma, D0, D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12;
 
   cout << "Informe o código de 13 dígitos: ";
   cin >> codigo;
@@ -51,7 +52,7 @@ int main()
 
   somaDosDigitos = D1 + D2 + D3 + D4 + D5 + D6 + D7 + D8 + D9 + D10 + D11 + D12;
 
-  soma = ((somaDosDigitos / 10) + 1) * 10;
+  soma = (somaDosDigitos / 10 + 1) * 10;
   soma = soma - somaDosDigitos;
 
   // Atribui zero a varíavel soma, caso a mesma seja igual a 10.
