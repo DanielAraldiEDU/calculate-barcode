@@ -1,6 +1,8 @@
-# Cálculo de Código de Barras
+# Calculador de Código de Barras
 
 [![wakatime](https://wakatime.com/badge/user/920a7e43-2969-4212-82ff-1b375685ff58/project/08d18af8-ede0-4b30-bef0-dd3366673a8d.svg)](https://wakatime.com/badge/user/920a7e43-2969-4212-82ff-1b375685ff58/project/08d18af8-ede0-4b30-bef0-dd3366673a8d)
+
+<hr></hr>
 
 Trabalho desenvolvido com intuito de calcular o dígito verificador de um código de barras, certificando se é válido ou não.
 
@@ -29,5 +31,7 @@ Trabalho desenvolvido com intuito de calcular o dígito verificador de um códig
 - Correto, para os códigos que passarem por todas as verificações;
 - Com dígito verificador inconsistente, para os códigos que passarem nos testes de tamanho, mas possuem um erro no dígito verificador;
 - Número de dígitos inválido, para os códigos de barras que possuírem mais ou menos do que 13 dígitos.
+
+<hr></hr>
 
 **Obs.: Para o desenvolvimento do código não poderão ser utilizadas variáveis compostas (arrays) e funções.**
