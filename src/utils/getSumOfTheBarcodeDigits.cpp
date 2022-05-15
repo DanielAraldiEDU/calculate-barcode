@@ -10,14 +10,14 @@ int getSumOfTheDigits(string barcode)
   {
     if (i != 12)
     {
+      int digit = getDigit(barcode, i);
+      
       if (i % 2 == 0)
       {
-        int digit = getDigit(barcode, i);
         sum += digit;
       }
       else
       {
-        int digit = getDigit(barcode, i);
         sum += digit * 3;
       }
     }
