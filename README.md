@@ -34,4 +34,4 @@ Trabalho desenvolvido com intuito de calcular o dígito verificador de um códig
 
 <hr></hr>
 
-**Obs.: Para o desenvolvimento do código não poderão ser utilizadas variáveis compostas (arrays) e funções.**
+**Obs.**: Para o desenvolvimento do código não poderão ser utilizadas variáveis compostas (arrays) e funções.
